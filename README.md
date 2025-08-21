@@ -1,7 +1,7 @@
 
 # Hi there, I'm Hamna Fazil! 👋
 
-## 🚀 Aspiring Full-Stack Developer | Undergraduate in Computing & Information Systems
+## 🚀 Aspiring Full-Stack Developer | Undergraduate | BSc (Hons) in Computing & Information Systems
 
 Welcome to my GitHub! 
 I’m Hamna, an enthusiastic coder and creative thinker, passionate about building innovative solutions through technology and a touch of psychology.
