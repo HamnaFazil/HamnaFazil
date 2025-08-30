@@ -1,93 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hamna Fazil | Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Designer</title>
+    <link href="styles.css" rel="stylesheet">
+
 </head>
 <body>
-  <div style="text-align: center; margin-top: 30px;">
-  <img src="profile.jpg" alt="Hamna's Profile Picture" 
-       style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
-  </div>
-  <div class="container">
-    <div class="hero"></div>
-    <header>
-      <h1>Hi there, I'm Hamna Fazil! 👋</h1>
-      <h2>🚀 Aspiring Full-Stack Developer | Undergraduate | BSc (Hons) in Computing & Information Systems</h2>
-    </header>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Hamna Fazil</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#strengths">Strengths</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
 
-    <section>
-      <p>Welcome to my GitHub! I'm Hamna, an enthusiastic coder and creative thinker, passionate about building innovative solutions through technology and a touch of psychology.</p>
-    </section>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#strengths">Strengths</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
 
-    <section>
-    <div class="card">
-      <h3>🎓 Education</h3>
-      <ul>
-        <li><strong>BSc (Hons) in Computing and Information Systems</strong> – Sabaragamuwa University of Sri Lanka</li>
-        <li><strong>Higher Diploma in Psychology</strong> – Cardiff Metropolitan University</li>
-      </ul>
-    </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-subtitle">UI/UX Designer</div>
+            <h1>Making users smile, one screen at a time</h1>
+            <p class="subtitle">Designing with empathy and purpose to craft intuitive experiences that make users smile—one seamless screen at a time. Every interaction is meaningful, every detail intentional.</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
     </section>
 
-    <section>
-      <h3>👩‍💻 Tech Stack & Skills</h3>
-      <ul>
-        <li><strong>Languages:</strong> Python, Java, HTML5, CSS3, JavaScript </li>
-            <i class="devicon-python-plain colored"></i>
-            <i class="devicon-java-plain colored"></i>
-            <i class="devicon-html5-plain colored"></i>
-            <i class="devicon-css3-plain colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left">profile.jpg</div>
+                <div class="about-text slide-in-right">
+                    <h1>Hi there, I'm Hamna Fazil! </h1>
+                    <h2> Aspiring User Experience Designer | Undergraduate | BSc (Hons) in Computing & Information Systems</h2>
+                    <h3>Passionate about creating meaningful digital experiences</h3>
+                    <p>I believe that great design is not just about how it looks, but how it works and how it makes people feel. Every project is an opportunity to solve problems and create connections that matter.</p>
+                    <p>When I'm not designing, you'll find me exploring new technologies, sketching ideas, or seeking inspiration in nature and architecture.</p>
+                    <h3>Education</h3>
+                        <ul>
+                            <li><strong>BSc (Hons) in Computing and Information Systems</strong> – Sabaragamuwa University of Sri Lanka</li>
+                            <li><strong>Higher Diploma in Psychology</strong> – Cardiff Metropolitan University</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="strengths" class="strengths">
+        <div class="container">
+            <h2 class="section-title fade-in">My Strengths</h2>
+            <h1><center>My skills</center></h1>
+                    <div class="skills">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Brand Identity</span>
+                        <span class="skill-tag">Motion Graphics</span>
+                        <span class="skill-tag">Prototyping</span>
+                        <span class="skill-tag">Design Systems</span>
+                    </div>
+                    <h3><center>
+                        Driven by curiosity, fueled by creativity—exploring ideas that spark impact.
 
-        <li><strong>Focus Areas:</strong> Full-stack development, scalable user-centric software systems, responsive web apps</li>
-        <li><strong>Practices:</strong> Software architecture, Agile development, DevOps, SDLC application</li>
-      </ul>
+                    </center></h3>
+                    <h1>Interests & Passions</h1>
+                        <ul>
+                            <li>Software architecture & design</li>
+                            <li>Agile and iterative development</li>
+                            <li>DevOps & CI/CD automation</li>
+                            <li>Cooking – bringing creativity to the kitchen!</li>
+                            <li>Psychology – empathy in teamwork & UX</li>
+                            <li>Humor – spreading smiles without harm</li>
+                            <li>Healthy arguments – for shared growth</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-      <h3>💡 Interests & Passions</h3>
-      <ul>
-        <li>Software architecture & design</li>
-        <li>Agile and iterative development</li>
-        <li>DevOps & CI/CD automation</li>
-        <li>Cooking – bringing creativity to the kitchen!</li>
-        <li>Psychology – empathy in teamwork & UX</li>
-        <li>Humor – spreading smiles without harm</li>
-        <li>Healthy arguments – for shared growth</li>
-      </ul>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>E-commerce Platform</h4>
+                        <p>A modern, responsive e-commerce solution with focus on user experience and conversion optimization. Built with scalability and performance in mind.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Brand Identity System</h4>
+                        <p>Complete visual identity redesign for a tech startup, including logo, guidelines, and digital assets. Creating a cohesive brand experience across all touchpoints.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Illustrator</span>
+                            <span class="tech-tag">Photoshop</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Mobile App Design</h4>
+                        <p>Intuitive mobile app interface for a fitness tracking application with focus on accessibility and user engagement through gamification.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Principle</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Lottie</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Dashboard Interface</h4>
+                        <p>Clean and functional dashboard design for data analytics platform with complex information architecture and real-time data visualization.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">SCSS</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Marketing Website</h4>
+                        <p>Modern marketing website with interactive animations and optimized conversion funnels. Built for maximum performance and SEO.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Framer Motion</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Creative Portfolio</h4>
+                        <p>Artistic portfolio website featuring immersive galleries, smooth transitions, and creative storytelling for a digital artist.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">GSAP</span>
+                            <span class="tech-tag">WebGL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-      <h3>🌱 What I'm Working On</h3>
-      <p>I’m actively seeking hands-on opportunities—internships, freelance roles, or collaborative tech projects—to expand my practical experience and contribute to meaningful work.</p>
-    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+        <div class="container">
+            <div class="right">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Let's Work Together</h2>
+                <p class="fade-in">Ready to bring your vision to life? Let's discuss how we can create something amazing together. I'm always excited to take on new challenges and collaborate on innovative projects.</p>
+                <form class="contact-form fade-in">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            </div>
+            </div>
+            </section>
+            <div class="left">
+            
+            <h3 class="section-title fade-in">Contact</h3>
+            <a href="https://www.linkedin.com/in/hamna-fazil-b95279205/?originalSubdomain=lk"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAYFBMVEUCdLP///8AbK+WuNaivtoAb7HJ2ukAaq9MkMGIsdKeu9jb5/Epe7YAcrIAaK6vy+Hy9/u/0uXT4e0AYau4zeJOir6DrNDo8PY9g7pyosphmsYmf7inxt5XjsAidLP3+/wVij8FAAAEJ0lEQVR4nO2ci3KrIBCGEUWSKhgvMZfG+P5veaSxJ8bsGp3RhXOGf5qJNdR+wQV2F4QFDx2KKrKsvDj0MOzxFh6Fllxybl6PHy6fJ4ZH41Kjo/71PJoqPzwptTiGA6icacUckNIs/4WquBNIRopXD6hMOsPUUcnKQLXCIaaOSrQdVM1tc7yK1wE7nZ2qqK6qzicWO1ZRXVXFrNK2IcbSFYvcq6mIhe5BhR5qnjzUXHmoufpHoYTg1F7ENJTipdpdLtfvktQxnYJS8rw/9VHFrSF0Tqeg9C+SUVspMtvDocS9CF7UXqmocKh7HIzUNtIulNLJmKmj2gmrUDJ8ZwqChMYfRKDU8QBBBXuSG4hAyQhkChIKJgyqbGGo4EJhVTCUOiNMAYlDD0N14SCiwiIU2PaMThSWDkNhdt5BUXQKS2uKpKeCocQFg8rt2ZRiGBSJm4r1U8DIZ3RoKLwqBArrE0h6BHTsu8NVReMmYF6CuEJMGY2bhzp5+vbOlNxp/HTc8+RvHWhyp/HxJqBU+fXKlKdETJPRDE/jp6uXXOlirMlgVMljaLja5HahC7A+hu2KSzONJGkj9zkJDvI0+z+adbEgDzVXJFBqYVPZFkoJYaaHRWrygZJzMa9nQaG6qwEa/TGgwVCktLruq6SPa9tTfKsbpmeMVWjW5bKH9PJFv0OgxPX3nwqeRsk40G6TbPe5I0b9qVHGrNewqNhBJfqJOqWbHLxCN4rW4kNtoVBvKbMfDa8GQ2U/0apgNywbYbB202a8DZRuTtBnT31NBtqbQPEazm4NVE3dwS2gNBpfDxRPZOY3gOL7GUyTQcj6UCUYBwHCl0OsD3X/YONPoaPP6lA3IDRDVGFNcHWoj+3uqbZBmuDqUEuUI8kuq1ABMgrahULmCuxCFXADtAt1ODoIhUxgWIa6gUa1GVRbhDumy1LsIiR/apSUlFBxI+SjwQutatzhI4Rq63JgwYoLdDxMIUvfBuoyMhVxxqiukKVvAhW+3RSJ+TOg/7IFVHJ/vx40T24UQc1vCyjo2wtktgBcOrkBVAutRFaIVeVENQWvG5VwdBsTGTo8dOgMLAwOyetDtcggCxtVAWVU14dKUogJK00EFcM+kvqGoaAufX0oZEJXCbB0QgOFBE4oFFB2fajMRShw4LANhaSePJSH8lAeynUo5iKUkzXloTyUh/JQHspDeSgP5aE8lIfyUB7qP4HaML2oohhQMYRS5wIqg61AEmDpbEnK2qwbBaQWFvlYetESAKvyUHPloebKQ82Vh5orV6Gc3OrJyU2xCnBQtClRMGQJoT2p44EFoWP3T4dmR0H6h+WmZB4XZ0QPrM8Wzx8bQububAgpDNNj68w41Uuf4tpESqc/EcvLJqO83/qzl/z7y/BoUAI6mn9y9PF4k9HAbMeau7Md6x9Q0FFyBTsovgAAAABJRU5ErkJggg==" width="30"> Hamna Fazil </a>
+            <p>
 
-    <section>
-      <h3>🤝 Let’s Connect!</h3>
-        <a href="mailto:hamnafazil27@gmail.com"><img src="gmail-icon.png" width="30"> hamnafazil27@gmail.com </a>
-        <a href="https://github.com/HamnaFazil"><img src="github-icon.png" width="30"> HamnaFazil </a>
-        <a href="https://www.linkedin.com/in/hamna-fazil-b95279205"><img src="linkedin-icon.png" width="30"> Hamna Fazil</a>
-    </section>
+            </p>
+            <a href="mailto:hamnafazil27@gmail.com"><img src="data:image/png;base64,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" width="30"> hamnafazil27@gmail.com </a>
+            <p>
 
-    <h2>Hamna Fazil's GitHub Stats</h2>
+            </p>
+            <a href="https://github.com/HamnaFazil"><img src="data:image/png;base64,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" width="30"> HamnaFazil </a>
+            <img 
+                src="https://github-readme-stats.vercel.app/api?username=HamnaFazil&show_icons=true&theme=radical" 
+                alt="Hamna's GitHub Stats" 
+                style="max-width: 100%; height: auto;"
+            />
+            </div>
+        
 
-  <!-- GitHub Stats -->
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=HamnaFazil&show_icons=true&theme=radical" 
-    alt="Hamna's GitHub Stats" 
-    style="max-width: 100%; height: auto;"
-  />
 
-    <footer>
-    <blockquote>“Code is a canvas for innovation. Let’s create something remarkable together—with empathy, humor, and heart.”</blockquote>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Personal Shape. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                    <a href="#sitemap">Sitemap</a>
+                </div>
+            </div>
+        </div>
     </footer>
-  </div>
-  <button id="themeToggle">Toggle Theme</button>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
+
 </body>
-</html>
